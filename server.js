@@ -12,7 +12,7 @@ const employeeRoutes = require('./routes/employee');
 const app = express();
 
 app.use(cors({
-    origin: 'https://superfix-f39d2.web.app/',
+    origin: '*',
     credentials: true
 
 }));
